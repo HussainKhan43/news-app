@@ -1,0 +1,21 @@
+.publish-at{
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-card{
+  height: 530px;
+  margin-bottom: 20px;
+}
+
+.news-img{
+  height: 200px;
+}
+
+.author{
+  font-size: 12px;
+}
+
+.news-title{
+  height: 120px;
+}
