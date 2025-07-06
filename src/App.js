@@ -50,7 +50,7 @@ function App() {
               value={searchQuery}
               onChange={e => setSearchQuery(e.target.value)}
             />
-            {filteredNews.map(item => (
+            {news.map(item => (
                 <News
                   title = {item.title}
                   description = {item.description}
